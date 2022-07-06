@@ -1,1 +1,23 @@
+/*Importing Our Font*/
 @import "../fonts/yekanbakh/yekanbakh.css";
+
+/*Variables*/
+:root {
+    --indigo: #435FCB;
+}
+
+/*Css Reset*/
+body {font-size: 12px;}
+button {cursor: pointer;}
+a {text-decoration: none;}
+img {pointer-events: none;}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'yekanBakh-Normal', sans-serif;
+}
+
+/*Styles*/
+.dv-fw-bold {font-family: 'yekanBakh-Bold', sans-serif;}
