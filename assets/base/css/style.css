@@ -25,6 +25,7 @@ img {pointer-events: none;}
 .dv-minw-1091 {min-width: 1200px;}
 .dv-ml-1 {margin-left: 1rem;}
 .dv-ml-2 {margin-left: 2rem;}
+.dv-mr-5 {margin-right: 5rem;}
 .dv-ml-15 {margin-left: 15rem;}
 .dv-aspect-ratio {aspect-ratio: 1/1;}
 .dv-bg-indigo {background-color: var(--indigo);}
@@ -34,12 +35,20 @@ img {pointer-events: none;}
 .dv-text-indigo {color: var(--indigo) !important;}
 .dv-bg-grey {background-color: var(--bs-gray-200);}
 .dv-border-transparent {border: 1px solid transparent;}
-div.dv-focused {border-color: var(--indigo);}
+.dv-focused {border-color: var(--indigo);}
+.dv-pointer-event-none {pointer-events: none;}
+.dv-placeholder-color-gray-500::placeholder {color: var(--bs-gray-500);}
 
 /*Hover, Active And Focus*/
 .dv-hover-bg-darker-grey:hover {background-color: var(--bs-gray-300) !important;}
 .dv-hover-text-darkest-grey:hover {color: var(--bs-gray-700) !important;}
 .dv-hover-text-darker-indigo:hover {color: #2e4189 !important;}
+.dv-hover-text-indigo:hover {color: var(--indigo) !important;}
+.dv-header-links-holder-item:hover ~ .dv-header-links-holder-items-list,
+.dv-header-links-holder-items-list:hover,
+.dv-toggle-of-inner-lists:hover + .dv-inner-list,
+.dv-inner-list:hover {opacity: 1 !important;pointer-events: visible !important;}
+.dv-hover-path-fill-indigo:hover path {fill: var(--indigo) !important;}
 
 /*Animations*/
 @keyframes pulsing-circle {
