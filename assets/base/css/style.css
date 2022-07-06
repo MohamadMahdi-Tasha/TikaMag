@@ -50,7 +50,7 @@ img {pointer-events: none;}
 .dv-object-fit {object-fit: cover;}
 .dv-bg-green {background-color: var(--green);}
 .dv-conclusion-card-details {transform: translateY(-40px) !important;border-top-left-radius: 2rem;border-top-right-radius: 2rem;}
-.dv-number-conclusion {transform: translateY(-40px)}
+.dv-number-conclusion {transform: translateY(-50px)}
 .dv-lh-30 {line-height: 30px;}
 .dv-conclusion-card-pros > li:before {background-image: url("../img/icons/img-check.svg");}
 .dv-conclusion-card-cons > li:before {background-image: url("../img/icons/img-X.svg");}
