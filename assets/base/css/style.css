@@ -77,6 +77,9 @@ img {pointer-events: none;}
 .dv-comment-textarea {height: 200px;}
 .dv-pagination-item {width: 30px;}
 .dv-pagination-item.active {background-color: var(--indigo);color: white;}
+.dv-reply-textarea {height: 400px;}
+.dv-reply-sect[data-opened='true'] {display: block;}
+.dv-reply-sect[data-opened='false'] {display: none;}
 .dv-blog-left-side .swiper-pagination-bullet.swiper-pagination-bullet-active {
     width: 30px !important;
     border-radius: 30px;
