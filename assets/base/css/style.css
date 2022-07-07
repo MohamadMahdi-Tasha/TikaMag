@@ -129,7 +129,6 @@ img {pointer-events: none;}
 .dv-hover-bg-darker-indigo:hover {background-color: #3a51ab;}
 .dv-hover-bg-light-blue:hover {background-color: var(--light-blue) !important;}
 .dv-hover-text-black:hover {color: black !important;}
-
 .dv-active-bg-darker-grey:active {background-color: var(--bs-gray-300) !important;}
 
 /*Animations*/
