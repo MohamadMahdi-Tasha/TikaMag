@@ -29,7 +29,7 @@ img {pointer-events: none;}
 /*Styles*/
 .dv-w-1500 {width: 1500px;}
 .dv-ml-1 {margin-left: 1rem;}
-.dv-ml-2 {margin-left: 2rem;}
+.dv-ml-2 {/* margin-left: 2rem; */}
 .dv-mr-5 {margin-right: 5rem;}
 .dv-ml-15 {margin-left: 15rem;}
 .dv-aspect-ratio {aspect-ratio: 1/1;}
@@ -159,4 +159,10 @@ img {pointer-events: none;}
     .dv-mq-991-text-black {color: black !important;}
     .dv-mq-991-p-1 {padding: 1rem;}
     .dv-mq-991-border-0 {border: none !important;}
+}
+
+@media (max-width: 575px) {
+    .dv-mq-575-d-grid {display:grid !important;}
+    .dv-mq-575-grid-tc-2 {grid-template-columns: repeat(2, 1fr);}
+    .dv-mq-575-gap-1 {gap: 1rem;}
 }
