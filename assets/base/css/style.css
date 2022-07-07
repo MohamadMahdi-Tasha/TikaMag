@@ -169,4 +169,5 @@ img {pointer-events: none;}
     .dv-mq-575-flex-d-c {flex-direction: column !important;}
     .dv-mq-575-d-flex {display: flex !important;}
     .dv-mq-575-ai-start {align-items: start !important;}
+    .dv-mq-575-ai-center{align-items: center !important;}
 }
