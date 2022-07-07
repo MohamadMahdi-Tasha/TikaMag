@@ -142,6 +142,7 @@ img {pointer-events: none;}
 @media (max-width: 1399px) {  .dv-w-1500 {width: 100% !important;}  }
 @media (max-width: 991px) {
     main.p-4 {padding: 1rem !important;}
+    .dv-conclusion-card-pros > li:before , .dv-conclusion-card-cons > li:before{width: 20px;}
 
     .dv-mq-991-d-none {display: none !important;}
     .dv-mq-991-d-block {display: block !important;}
@@ -159,12 +160,13 @@ img {pointer-events: none;}
     .dv-mq-991-text-black {color: black !important;}
     .dv-mq-991-p-1 {padding: 1rem;}
     .dv-mq-991-border-0 {border: none !important;}
-    .dv-conclusion-card-pros > li:before ,
-    .dv-conclusion-card-cons > li:before{width: 20px;}
 }
 
 @media (max-width: 575px) {
     .dv-mq-575-d-grid {display:grid !important;}
     .dv-mq-575-grid-tc-2 {grid-template-columns: repeat(2, 1fr);}
     .dv-mq-575-gap-1 {gap: 1rem;}
+    .dv-mq-575-flex-d-c {flex-direction: column !important;}
+    .dv-mq-575-d-flex {display: flex !important;}
+    .dv-mq-575-ai-start {align-items: start !important;}
 }
