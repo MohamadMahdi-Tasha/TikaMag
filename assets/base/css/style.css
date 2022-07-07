@@ -151,4 +151,11 @@ img {pointer-events: none;}
     .dv-mq-991-w-75 {width: 75% !important;}
     .dv-mq-991-w-auto {width: auto !important;}
     .dv-mq-991-m-0 {margin: 0 !important;}
+    .dv-mq-991-d-flex {display: flex !important;}
+    .dv-mq-991-flex-d-c {flex-direction: column !important;}
+    .dv-mq-991-d-inline-flex {display: inline-flex !important;}
+    .dv-mq-991-mb-3 {margin-bottom: 1.5rem !important;}
+    .dv-mq-991-fw-bold {font-weight: bold !important;}
+    .dv-mq-991-text-black {color: black !important;}
+    .dv-mq-991-p-1 {padding: 1rem;}
 }
