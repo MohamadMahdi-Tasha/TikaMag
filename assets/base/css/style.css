@@ -159,6 +159,8 @@ img {pointer-events: none;}
     .dv-mq-991-text-black {color: black !important;}
     .dv-mq-991-p-1 {padding: 1rem;}
     .dv-mq-991-border-0 {border: none !important;}
+    .dv-conclusion-card-pros > li:before ,
+    .dv-conclusion-card-cons > li:before{width: 20px;}
 }
 
 @media (max-width: 575px) {
