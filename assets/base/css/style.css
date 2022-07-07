@@ -57,10 +57,10 @@ img {pointer-events: none;}
 .dv-conclusion-card-pros > li:before {background-image: url("../img/icons/img-check.svg");}
 .dv-conclusion-card-cons > li:before {background-image: url("../img/icons/img-X.svg");}
 .dv-text-grey {color: var(--bs-gray-600);}
-.dv-blog-left-side .swiper-pagination-bullet:not(:last-of-type) {margin-right: 5px;}
-.dv-blog-left-side .swiper-pagination-bullet{width: 10px !important;height: 10px !important;transition: .3s}
-.dv-blog-left-side .swiper-button-prev:after,
-.dv-blog-left-side .swiper-button-next:after{content: '';}
+.swiper-pagination-bullet:not(:last-of-type) {margin-right: 5px;}
+.swiper-pagination-bullet{width: 10px !important;height: 10px !important;transition: .3s}
+.swiper-button-prev:after,
+.swiper-button-next:after{content: '' !important;}
 .dv-comment-filter.active {background-color: var(--light-blue);color: var(--indigo) !important;}
 .dv-bg-pink {background-color: var(--pink);}
 .dv-text-hot-pink {color: var(--hot-pink);}
@@ -80,14 +80,14 @@ img {pointer-events: none;}
 .dv-reply-textarea {height: 400px;}
 .dv-reply-sect[data-opened='true'] {display: block;}
 .dv-reply-sect[data-opened='false'] {display: none;}
-.dv-more-blog-thumbnail {background-image: url("../img/img-blog-thumbnail.jpg");background-size: cover;}
+.dv-more-blog-thumbnail {background-image: url("../img/img-thumbnail-1.jpg");background-size: cover;}
 .dv-bg-orange {background-color: var(--orange);}
 .dv-bg-hot-pink {background-color: var(--hot-pink);}
 .dv-text-lightest-grey {color: #c5d5e3;}
 .dv-bg-gradiant-black {background: linear-gradient(to bottom, transparent, rgba(0,0,0,.7));}
 .dv-rounded-1dot5 {border-radius: 1.5rem;}
 .dv-overflowx-hidden {overflow-x: hidden;}
-.dv-blog-left-side .swiper-pagination-bullet.swiper-pagination-bullet-active {
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
     width: 30px !important;
     border-radius: 30px;
     background-color: var(--indigo) !important;
@@ -130,6 +130,11 @@ img {pointer-events: none;}
 .dv-hover-bg-light-blue:hover {background-color: var(--light-blue) !important;}
 .dv-hover-text-black:hover {color: black !important;}
 .dv-active-bg-darker-grey:active {background-color: var(--bs-gray-300) !important;}
+.dv-bg-cover {background-size: cover !important;}
+.dv-home-first-section-slider .dv-slide1 {background-image: url('../img/img-thumbnail-1.jpg');}
+.dv-home-first-section-slider .dv-slide2 {background-image: url('../img/home/img-thumbnail-2.png');}
+.dv-home-first-section-slider .dv-slide3 {background-image: url('../img/home/img-thumbnail-3.png');}
+.dv-home-first-section-slider .swiper-slide > div {height: 400px !important;}
 
 /*Animations*/
 @keyframes pulsing-circle {
