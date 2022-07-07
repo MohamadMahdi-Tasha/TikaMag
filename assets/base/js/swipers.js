@@ -8,6 +8,7 @@ const swiper2 = new Swiper(".dv-2slide-per-view-slider-with-gap", {
     }
 })
 
+// TODO: Add Timer To Them
 const swiper = new Swiper(".dv-related-things-swiper", {
     slidesPerView: 1,
     spaceBetween: 50,
