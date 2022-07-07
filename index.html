@@ -28,24 +28,24 @@
 <header class="w-100 d-flex justify-content-center align-items-center border-bottom shadow-lg">
     <main class="dv-w-1500 p-4">
         <!--Top Side-->
-        <div class="d-inline-flex align-items-center w-100 mb-4">
+        <div class="d-inline-flex align-items-center w-100 mb-4 dv-mq-991-m-0">
             <!--Right Side-->
-            <div class="d-inline-flex align-items-center w-50 dv-ml-15">
-                <a class="w-25 dv-ml-2" href="https://tikakala.com"><img width="100%" src="assets/base/img/img-logo-typography.png" alt="تیکاکالا"></a>
+            <div class="d-inline-flex align-items-center w-50 dv-ml-15 dv-mq-991-m-0">
+                <a class="w-25 dv-mq-991-w-50 dv-ml-2" href="https://tikakala.com"><img width="100%" src="assets/base/img/img-logo-typography.png" alt="تیکاکالا"></a>
                 <!--Pulsing Circle-->
-                <div class="dv-pulsing-circle dv-bg-indigo dv-aspect-ratio rounded-circle dv-ml-2"></div>
-                <h6 class="fw-normal text-black">جشنواره بهاره، خفیف شارژر، کابلو پاوربانک؛ تنوعی از محصولات برند انکر</h6>
+                <div class="dv-pulsing-circle dv-bg-indigo dv-aspect-ratio rounded-circle dv-ml-2 dv-mq-991-d-none"></div>
+                <h6 class="fw-normal text-black dv-mq-991-d-none">جشنواره بهاره، خفیف شارژر، کابلو پاوربانک؛ تنوعی از محصولات برند انکر</h6>
             </div>
             <!--Left Side-->
-            <ul class="d-inline-flex list-unstyled w-50 justify-content-between align-items-center">
-                <li><a class="dv-text-darker-grey dv-hover-text-darkest-grey dv-transition" href="#">شرایط و قوانین</a></li>
-                <li><a class="dv-text-darker-grey dv-hover-text-darkest-grey dv-transition" href="#">درباره ما</a></li>
-                <li><a class="dv-text-darker-grey dv-hover-text-darkest-grey dv-transition" href="#">تماس با ما</a></li>
-                <li><a class="dv-text-darker-grey dv-hover-text-darkest-grey dv-transition" href="#">راهنمای خرید</a></li>
-                <li>
+            <ul class="d-inline-flex list-unstyled w-50 justify-content-between align-items-center dv-mq-991-jc-end">
+                <li class="dv-mq-991-d-none"><a class="dv-text-darker-grey dv-hover-text-darkest-grey dv-transition" href="#">شرایط و قوانین</a></li>
+                <li class="dv-mq-991-d-none"><a class="dv-text-darker-grey dv-hover-text-darkest-grey dv-transition" href="#">درباره ما</a></li>
+                <li class="dv-mq-991-d-none"><a class="dv-text-darker-grey dv-hover-text-darkest-grey dv-transition" href="#">تماس با ما</a></li>
+                <li class="dv-mq-991-d-none"><a class="dv-text-darker-grey dv-hover-text-darkest-grey dv-transition" href="#">راهنمای خرید</a></li>
+                <li class="dv-mq-991-d-none">
                     <a class="dv-text-indigo fw-bold dv-hover-text-darker-indigo dv-transition" href="tel:42263">
                         خط ویژه پشتیبانی
-                        ۴۲۲۶۳
+                        <span class="fw-bold">۴۲۲۶۳</span>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                             <g transform="translate(2 2)">
                                 <path d="M13.12,19.446C8.83,17.655,2.275,11.231.543,6.974-.176,5.389-.182,4.082.531,3.1.815,2.639,2.433.713,3.882.774a1.863,1.863,0,0,1,1.128.59A13.212,13.212,0,0,1,7.258,4.486a2.233,2.233,0,0,1-.422,1.62c-.267.468-.982,1.354-.8,1.871a11.491,11.491,0,0,0,6.093,5.92c.506.184,1.391-.53,1.857-.8a2.211,2.211,0,0,1,1.616-.424,13.422,13.422,0,0,1,3.112,2.293,1.856,1.856,0,0,1,.585,1.121c.054,1.482-1.96,3.174-2.327,3.385a2.822,2.822,0,0,1-1.69.527A5.191,5.191,0,0,1,13.12,19.446ZM14.835,7.931h0a3.461,3.461,0,0,0-2.743-2.75.86.86,0,0,1,.327-1.689,5.175,5.175,0,0,1,4.1,4.11.865.865,0,0,1-.678,1.011.945.945,0,0,1-.166.015A.86.86,0,0,1,14.835,7.931Zm3.456-.075a6.912,6.912,0,0,0-6.126-6.138A.863.863,0,0,1,11.731.184a.818.818,0,0,1,.625-.176,8.617,8.617,0,0,1,7.638,7.656.857.857,0,0,1-.756.95.705.705,0,0,1-.1.006A.856.856,0,0,1,18.291,7.856Z" transform="translate(0 0)" fill="#435fcb"/>
@@ -53,25 +53,43 @@
                         </svg>
                     </a>
                 </li>
+                <li class="d-none dv-mq-991-d-block dv-ml-1">
+                    <a href="#">
+                        <button class="p-3 bg-transparent border dv-rounded-1dot5 dv-active-bg-darker-grey dv-transition">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+                            </svg>
+                        </button>
+                    </a>
+                </li>
+                <li class="d-none dv-mq-991-d-block">
+                    <a href="#">
+                        <button class="p-3 bg-transparent border dv-rounded-1dot5 dv-active-bg-darker-grey dv-transition">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                            </svg>
+                        </button>
+                    </a>
+                </li>
             </ul>
         </div>
         <!--Bottom Side-->
         <div class="d-inline-flex align-items-center w-100">
             <!--Right Side-->
-            <ul class="w-50 d-inline-flex align-items-center list-unstyled mt-3">
+            <ul class="w-50 dv-mq-991-w-auto d-inline-flex align-items-center list-unstyled mt-3">
                 <li class="dv-ml-1">
                     <button class="p-3 dv-hover-text-indigo dv-header-links-holder-item dv-transition dv-hover-bg-darker-grey d-flex justify-content-center align-items-center fw-bold border bg-white rounded-4">
-                        <svg class="dv-ml-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <svg class="dv-ml-1 dv-mq-991-m-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                             <g transform="translate(2 2)">
                                 <path d="M13.986,20a2.989,2.989,0,0,1-2.975-3V13.941a2.989,2.989,0,0,1,2.975-3h3.039a2.988,2.988,0,0,1,2.975,3V17a2.988,2.988,0,0,1-2.975,3Zm-1.58-6.059V17a1.593,1.593,0,0,0,1.58,1.6h3.039A1.592,1.592,0,0,0,18.6,17V13.941a1.592,1.592,0,0,0-1.58-1.6H13.986A1.593,1.593,0,0,0,12.406,13.941ZM2.975,20A2.989,2.989,0,0,1,0,17V13.941a2.989,2.989,0,0,1,2.975-3H6.014a2.989,2.989,0,0,1,2.975,3V17a2.989,2.989,0,0,1-2.975,3ZM1.4,13.941V17a1.593,1.593,0,0,0,1.58,1.6H6.014A1.593,1.593,0,0,0,7.594,17V13.941a1.593,1.593,0,0,0-1.58-1.6H2.975A1.593,1.593,0,0,0,1.4,13.941ZM13.986,9.055a2.989,2.989,0,0,1-2.975-3V3a2.989,2.989,0,0,1,2.975-3h3.039A2.988,2.988,0,0,1,20,3V6.06a2.988,2.988,0,0,1-2.975,3ZM12.406,3V6.06a1.593,1.593,0,0,0,1.58,1.6h3.039a1.592,1.592,0,0,0,1.58-1.6V3a1.592,1.592,0,0,0-1.58-1.6H13.986A1.593,1.593,0,0,0,12.406,3Zm-9.43,6.06A2.989,2.989,0,0,1,0,6.06V3A2.989,2.989,0,0,1,2.975,0H6.014A2.989,2.989,0,0,1,8.989,3V6.06a2.989,2.989,0,0,1-2.975,3ZM1.4,3V6.06a1.593,1.593,0,0,0,1.58,1.6H6.014a1.593,1.593,0,0,0,1.58-1.6V3a1.593,1.593,0,0,0-1.58-1.6H2.975A1.593,1.593,0,0,0,1.4,3Z" fill="#435fcb" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1"/>
                             </g>
                         </svg>
-                        <span class="dv-ml-1">دسته بندی کالاها</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                        <span class="dv-ml-1 dv-mq-991-d-none">دسته بندی کالاها</span>
+                        <svg class="dv-mq-991-d-none" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                             <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
                         </svg>
                     </button>
-                    <ul class="dv-header-links-holder-items-list list-unstyled position-absolute opacity-0 dv-pointer-event-none dv-transition w-25 shadow rounded-4">
+                    <ul class="dv-header-links-holder-items-list list-unstyled position-absolute opacity-0 dv-pointer-event-none dv-transition w-25 shadow rounded-4 dv-mq-991-w-75">
                         <li><a class="w-100" href="#"><button class="w-100 p-3 bg-white border-0 dv-transition dv-hover-bg-darker-grey text-end">ایتم</button></a></li>
                         <li><a class="w-100" href="#"><button class="w-100 p-3 bg-white border-0 dv-transition dv-hover-bg-darker-grey text-end">ایتم</button></a></li>
                         <li><a class="w-100" href="#"><button class="w-100 p-3 bg-white border-0 dv-transition dv-hover-bg-darker-grey text-end">ایتم</button></a></li>
@@ -116,15 +134,15 @@
                         </li>
                     </ul>
                 </li>
-                <li class="dv-ml-1"><a href="#"><button class="p-3 dv-transition dv-hover-text-indigo dv-hover-bg-darker-grey d-flex justify-content-center align-items-center fw-bold border bg-white rounded-4">بازی و سرگرمی</button></a></li>
-                <li class="dv-ml-1"><a href="#"><button class="p-3 dv-transition dv-hover-text-indigo dv-hover-bg-darker-grey d-flex justify-content-center align-items-center fw-bold border bg-white rounded-4">موبایلو فناوری</button></a></li>
-                <li class="dv-ml-1"><a href="#"><button class="p-3 dv-transition dv-hover-text-indigo dv-hover-bg-darker-grey d-flex justify-content-center align-items-center fw-bold border bg-white rounded-4">سخت افزار</button></a></li>
-                <li><a href="#"><button class="p-3 dv-hover-text-indigo dv-transition dv-hover-bg-darker-grey d-flex justify-content-center align-items-center fw-bold border bg-white rounded-4">سینما</button></a></li>
+                <li class="dv-ml-1 dv-mq-991-d-none"><a href="#"><button class="p-3 dv-transition dv-hover-text-indigo dv-hover-bg-darker-grey d-flex justify-content-center align-items-center fw-bold border bg-white rounded-4">بازی و سرگرمی</button></a></li>
+                <li class="dv-ml-1 dv-mq-991-d-none"><a href="#"><button class="p-3 dv-transition dv-hover-text-indigo dv-hover-bg-darker-grey d-flex justify-content-center align-items-center fw-bold border bg-white rounded-4">موبایلو فناوری</button></a></li>
+                <li class="dv-ml-1 dv-mq-991-d-none"><a href="#"><button class="p-3 dv-transition dv-hover-text-indigo dv-hover-bg-darker-grey d-flex justify-content-center align-items-center fw-bold border bg-white rounded-4">سخت افزار</button></a></li>
+                <li class="dv-mq-991-d-none"><a href="#"><button class="p-3 dv-hover-text-indigo dv-transition dv-hover-bg-darker-grey d-flex justify-content-center align-items-center fw-bold border bg-white rounded-4">سینما</button></a></li>
             </ul>
             <!--Left Side-->
-            <div class="w-50 d-inline-flex justify-content-end align-items-center">
+            <div class="w-50 dv-mq-991-w-100 d-inline-flex justify-content-end align-items-center">
                 <!--Search Input-->
-                <div class="dv-ml-1 dv-bg-grey p-3 rounded-4 w-50 dv-transition dv-border-transparent">
+                <div class="dv-ml-1 dv-mq-991-m-0 dv-bg-grey p-3 rounded-4 w-50 dv-mq-991-w-100 dv-transition dv-border-transparent">
                     <form action="#" class="d-inline-flex align-items-center w-100">
                         <button class="bg-transparent border-0 dv-ml-1"><svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
                             <g transform="translate(0.5 0.5)">
@@ -136,7 +154,7 @@
                         <input required type="text" placeholder="جستجو در تیکاکالا بر اساس نام یا کد.." class="w-100 dv-placeholder-color-gray-500 dv-inputs-in-div bg-transparent border-0">
                     </form>
                 </div>
-                <a href="#">
+                <a href="#" class="dv-mq-991-d-none">
                     <button class="p-3 dv-hover-text-indigo dv-hover-path-fill-indigo d-flex dv-transition dv-hover-bg-darker-grey justify-content-center align-items-center fw-bold border bg-white rounded-4">
                         <svg class="dv-ml-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                             <g transform="translate(4 2)">
@@ -151,7 +169,7 @@
     </main>
 </header>
 <!--Blog section-->
-<section class="w-100 d-flex justify-content-center mb-5">
+<section class="w-100 d-none d-flex justify-content-center mb-5">
     <div class="dv-w-1500 d-inline-flex mt-5">
         <!--Right Side-->
         <main class="p-4 dv-ml-2 w-75">
@@ -431,7 +449,7 @@
     </div>
 </section>
 <!--Comments Section-->
-<section class="w-100 d-flex justify-content-center mb-5">
+<section class="w-100 d-none d-flex justify-content-center mb-5">
     <main class="dv-w-1500 mt-5 border-top p-4">
         <!--Source-->
         <h3 class="dv-text-purple mb-3">
@@ -696,7 +714,7 @@
     </main>
 </section>
 <!--Last Blogs Section-->
-<section class="w-100 d-flex justify-content-center mb-5">
+<section class="w-100 d-none d-flex justify-content-center mb-5">
     <main class="dv-w-1500 row gap-5 p-4">
         <div class="col">
             <!--Top Side-->
@@ -893,7 +911,7 @@
     </main>
 </section>
 <!--Footer-->
-<footer class="w-100 p-4">
+<footer class="w-100 d-none p-4">
     <!--Top Side Image-->
     <img src="assets/base/img/footer/img-top-side-img.png" class="w-100 mb-5" alt="تیکاکالا">
     <main class="w-100 d-flex align-items-center justify-content-center">
