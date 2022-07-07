@@ -65,8 +65,8 @@ img {pointer-events: none;}
 .dv-bg-pink {background-color: var(--pink);}
 .dv-text-hot-pink {color: var(--hot-pink);}
 .dv-w-30px {width: 30px;}
-.dv-like-button[data-like="true"] > span{background-color: var(--hot-pink) !important;}
-.dv-like-button[data-like="true"] > span svg{fill: var(--pink);}
+.dv-like-button[data-like="true"] > span:first-of-type{background-color: var(--hot-pink) !important;}
+.dv-like-button[data-like="true"] > span:first-of-type svg{fill: var(--pink);}
 .dv-comments-list > li:not(:last-of-type) {margin-bottom: 2rem;}
 .dv-comments-list > li:not(:first-of-type) {border-top: 1px solid #dee2e6;padding: 2rem;}
 .dv-bts-dashed {border-top-style: dashed !important;}
