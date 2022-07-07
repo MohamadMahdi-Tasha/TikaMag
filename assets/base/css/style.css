@@ -127,6 +127,7 @@ img {pointer-events: none;}
 .dv-hover-text-light-blue:hover {color: var(--light-blue) !important;}
 .dv-hover-bg-darker-indigo:hover {background-color: #3a51ab;}
 .dv-hover-bg-light-blue:hover {background-color: var(--light-blue) !important;}
+.dv-hover-text-black:hover {color: black !important;}
 
 /*Animations*/
 @keyframes pulsing-circle {
