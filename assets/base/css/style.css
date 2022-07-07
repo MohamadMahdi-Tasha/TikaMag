@@ -135,7 +135,7 @@ img {pointer-events: none;}
 .dv-home-first-section-slider .dv-slide1 {background-image: url('../img/img-thumbnail-1.jpg');}
 .dv-home-first-section-slider .dv-slide2 {background-image: url('../img/home/img-thumbnail-2.png');}
 .dv-home-first-section-slider .dv-slide3 {background-image: url('../img/home/img-thumbnail-3.png');}
-.dv-home-first-section-slider .swiper-slide {height: 400px !important;/* width: 800px !important; */}
+.dv-home-first-section-slider .swiper-slide {height: 500px !important;}
 
 /*Animations*/
 @keyframes pulsing-circle {
