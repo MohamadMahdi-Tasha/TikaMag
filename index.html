@@ -1003,25 +1003,6 @@
 <script src="assets/plugins/swiperjs/swiper-bundle.min.js"></script>
 <script src="assets/base/js/swipers.js"></script>
 <script src="assets/plugins/bootstrap/bootstrap.bundle.min.js"></script>
-<script>
-    const inputsInDiv = document.querySelectorAll('.dv-inputs-in-div');
-    const answerToCommentBtns = document.querySelectorAll('.dv-answer-to-comment-btn');
-
-    inputsInDiv.forEach(input => {
-        input.addEventListener('focus', () => input.parentElement.parentElement.classList.add('dv-focused'))
-        input.addEventListener('blur', () => input.parentElement.parentElement.classList.remove('dv-focused'))
-    })
-
-    answerToCommentBtns.forEach(btn => {
-        btn.addEventListener('click', () => {
-            const replyElement = btn.parentElement.parentElement.lastElementChild;
-            const isReplyElementShowing = replyElement.getAttribute('data-opened');
-            const replyInput = replyElement.lastElementChild.firstElementChild;
-
-            isReplyElementShowing === 'true' ? replyElement.setAttribute('data-opened', 'false') : replyElement.setAttribute('data-opened', 'true')
-            replyInput.focus()
-        })
-    })
-</script>
+<script src="assets/base/js/script.js"></script>
 </body>
 </html>
