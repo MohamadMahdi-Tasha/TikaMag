@@ -158,4 +158,5 @@ img {pointer-events: none;}
     .dv-mq-991-fw-bold {font-weight: bold !important;}
     .dv-mq-991-text-black {color: black !important;}
     .dv-mq-991-p-1 {padding: 1rem;}
+    .dv-mq-991-border-0 {border: none !important;}
 }
