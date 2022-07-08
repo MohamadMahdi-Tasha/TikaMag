@@ -93,7 +93,7 @@ img {pointer-events: none;}
 .dv-home-first-section-slider .swiper-slide {height: 500px !important;}
 .dv-z-index-3{z-index: 3;}
 .dv-home-btn-transformY {transform: translateY(-20px) translateX(-20px);}
-.dv-text-wrap-with-dots {width: 100%;overflow:hidden;white-space:nowrap;text-overflow: ellipsis;}
+.dv-text-wrap-with-dots {width: 50%;overflow:hidden;white-space:nowrap;text-overflow: ellipsis;}
 .dv-grid-tc-4 {grid-template-columns: repeat(4, 1fr);}
 .dv-grid-tc-3 {grid-template-columns: repeat(3, 1fr);}
 .dv-home-second-sections-top-side-cards {height: 250px;}
