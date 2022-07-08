@@ -4,7 +4,6 @@
 /*Variables*/
 :root {
     --indigo: #435FCB;
-    --purple: #230d35;
     --light-blue: #c0ccef;
     --green: #00c57a;
     --pink: #ffcddf;
@@ -46,7 +45,6 @@ img {pointer-events: none;}
 .dv-section {background-color: #fbfcff;}
 .dv-lh-40 {line-height: 40px;}
 .dv-text-darkest-grey {color: var(--bs-gray-700);}
-.dv-text-purple {color: var(--purple);}
 .dv-bg-light-blue {background-color: var(--light-blue);}
 .dv-mr-1 {margin-right: 1rem;}
 .dv-object-fit {object-fit: cover;}
@@ -88,6 +86,21 @@ img {pointer-events: none;}
 .dv-bg-gradiant-black {background: linear-gradient(to bottom, transparent, rgba(0,0,0,.7));}
 .dv-rounded-1dot5 {border-radius: 1.5rem;}
 .dv-overflowx-hidden {overflow-x: hidden;}
+.dv-bg-cover {background-size: cover !important;}
+.dv-home-first-section-slider .dv-slide1 {background-image: url('../img/img-thumbnail-1.jpg');}
+.dv-home-first-section-slider .dv-slide2 {background-image: url('../img/home/img-thumbnail-2.png');}
+.dv-home-first-section-slider .dv-slide3 {background-image: url('../img/home/img-thumbnail-3.png');}
+.dv-home-first-section-slider .swiper-slide {height: 500px !important;}
+.dv-z-index-3{z-index: 3;}
+.dv-home-btn-transformY {transform: translateY(-20px) translateX(-20px);}
+.dv-text-wrap-with-dots {width: 100%;overflow:hidden;white-space:nowrap;text-overflow: ellipsis;}
+.dv-grid-tc-4 {grid-template-columns: repeat(4, 1fr);}
+.dv-grid-tc-3 {grid-template-columns: repeat(3, 1fr);}
+.dv-home-second-sections-top-side-cards {height: 250px;}
+.dv-br-dashed {border-right: 1px dashed #c5d5e3;}
+.dv-pr-1 {padding-right: 1rem;}
+.dv-pl-1 {padding-left: 1rem;}
+
 .swiper-pagination-bullet.swiper-pagination-bullet-active {
     width: 30px !important;
     border-radius: 30px;
@@ -131,12 +144,6 @@ img {pointer-events: none;}
 .dv-hover-bg-light-blue:hover {background-color: var(--light-blue) !important;}
 .dv-hover-text-black:hover {color: black !important;}
 .dv-active-bg-darker-grey:active {background-color: var(--bs-gray-300) !important;}
-.dv-bg-cover {background-size: cover !important;}
-.dv-home-first-section-slider .dv-slide1 {background-image: url('../img/img-thumbnail-1.jpg');}
-.dv-home-first-section-slider .dv-slide2 {background-image: url('../img/home/img-thumbnail-2.png');}
-.dv-home-first-section-slider .dv-slide3 {background-image: url('../img/home/img-thumbnail-3.png');}
-.dv-home-first-section-slider .swiper-slide {height: 500px !important;}
-.dv-z-index-3{z-index: 3;}
 
 /*Animations*/
 @keyframes pulsing-circle {

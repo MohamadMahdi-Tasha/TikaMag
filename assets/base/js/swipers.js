@@ -1,5 +1,4 @@
 // Configs Of Sliders
-// TODO: Add Timer To Them
 const swiper = new Swiper(".dv-related-things-swiper", {
     slidesPerView: 1,
     spaceBetween: 50,
