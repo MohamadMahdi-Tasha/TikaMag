@@ -136,6 +136,7 @@ img {pointer-events: none;}
 .dv-home-first-section-slider .dv-slide2 {background-image: url('../img/home/img-thumbnail-2.png');}
 .dv-home-first-section-slider .dv-slide3 {background-image: url('../img/home/img-thumbnail-3.png');}
 .dv-home-first-section-slider .swiper-slide {height: 500px !important;}
+.dv-z-index-3{z-index: 3;}
 
 /*Animations*/
 @keyframes pulsing-circle {
