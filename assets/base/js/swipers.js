@@ -15,9 +15,9 @@ const swiper = new Swiper(".dv-related-things-swiper", {
 
 const swiper2 = new Swiper(".dv-2slide-per-view-slider-with-gap", {
     slidesPerView: 2,
-    spaceBetween: 50,
+    spaceBetween: 20,
     breakpoints: {
-        767: {spaceBetween: 50, slidesPerView: 2,},
+        767: {spaceBetween: 20, slidesPerView: 2,},
         1: {spaceBetween: 10,slidesPerView: 1,}
     }
 })
