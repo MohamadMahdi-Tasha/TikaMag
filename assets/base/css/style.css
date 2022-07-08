@@ -154,7 +154,7 @@ img {pointer-events: none;}
 /*Media Querys*/
 @media (max-width: 1399px) {  .dv-w-1500 {width: 100% !important;}  }
 @media (max-width: 991px) {
-    .p-4 {padding: 1rem !important;}
+    main.p-4 {padding: 1rem !important;}
     .dv-conclusion-card-pros > li:first-of-type:before , .dv-conclusion-card-cons > li:first-of-type:before{width: 20px !important;}
     .dv-conclusion-card-pros > li:last-of-type:before , .dv-conclusion-card-cons > li:last-of-type:before{width: 30px !important;}
     .dv-home-first-section-slider .swiper-slide {height: 350px !important;}
