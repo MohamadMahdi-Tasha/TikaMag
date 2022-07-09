@@ -174,6 +174,9 @@ img {pointer-events: none;}
     .dv-conclusion-card-pros > li:first-of-type:before , .dv-conclusion-card-cons > li:first-of-type:before{width: 20px !important;}
     .dv-conclusion-card-pros > li:last-of-type:before , .dv-conclusion-card-cons > li:last-of-type:before{width: 30px !important;}
     .dv-home-first-section-slider .swiper-slide {height: 350px !important;}
+    .dv-conclusion-card-details > div:nth-of-type(2)::-webkit-scrollbar {display: none !important;}
+    .dv-conclusion-card-details > div:nth-of-type(2)::-moz-viewport-scroll {display: none !important;}
+    .dv-conclusion-card-details > div:nth-of-type(2){height: 20rem;overflow: scroll;margin-bottom: 1rem;}
 
     .dv-mq-991-d-none {display: none !important;}
     .dv-mq-991-d-block {display: block !important;}
