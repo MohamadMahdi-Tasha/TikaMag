@@ -162,7 +162,7 @@ img {pointer-events: none;}
 }
 
 /*Media Querys*/
-@media (max-width: 1576px) {  .dv-w-1500 {width: 1200px !important;}  }
+@media (max-width: 1576px) {  .dv-w-1500 {width: 1150px !important;}  }
 @media (max-width: 1199px) {  .dv-w-1500 {width: 1000px !important;}  }
 @media (max-width: 1461px) {
     .dv-mq-1461-d-flex {display: flex !important;}
