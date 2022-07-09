@@ -95,7 +95,9 @@ img {pointer-events: none;}
 .dv-home-first-section-slider .dv-slide1 {background-image: url('../img/img-thumbnail-1.jpg');}
 .dv-home-first-section-slider .dv-slide2 {background-image: url('../img/home/img-thumbnail-2.png');}
 .dv-home-first-section-slider .dv-slide3 {background-image: url('../img/home/img-thumbnail-3.png');}
-.dv-home-first-section-slider .swiper-slide {height: 480px !important;}
+.dv-home-first-section-slider{height: 400px !important;}
+.dv-bg-gradiant-purple {background: linear-gradient(to bottom, transparent, #200E32);}
+.dv-ptb-dot-5 {padding-top: .5rem;padding-bottom: .5rem;}
 .dv-z-index-3{z-index: 3;}
 .dv-home-btn-transformY {transform: translateY(-20px) translateX(-20px);}
 .dv-text-wrap-with-dots {width: 50%;overflow:hidden;white-space:nowrap;text-overflow: ellipsis;}

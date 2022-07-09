@@ -25,6 +25,8 @@ const swiper2 = new Swiper(".dv-2slide-per-view-slider-with-gap", {
 const swiper3 = new Swiper(".dv-home-first-section-slider", {
     spaceBetween: 20,
     autoplay: {delay: 5000,},
+    slidesPerView: 1,
+    initialSlide: 3,
     pagination: {
         el: '.swiper-pagination',
         type: 'bullets',
