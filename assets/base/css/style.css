@@ -155,8 +155,9 @@ img {pointer-events: none;}
 }
 
 /*Media Querys*/
-@media (max-width: 1576px) {  .dv-w-1500 {width: 100% !important;}  }
+@media (max-width: 1576px) {  .dv-w-1500 {width: 1200px !important;}  }
 @media (max-width: 1292px) {  .dv-home-second-sections-top-side-cards {width: 280px !important;}  }
+@media (max-width: 1199px) {  .dv-w-1500 {width: 1000px !important;}  }
 @media (max-width: 1461px) {
     .dv-home-second-sections-top-side-cards {width: 330px !important;}
     .dv-home-second-sections-top-side-cards {width: 300px !important;}
@@ -170,6 +171,7 @@ img {pointer-events: none;}
 
 @media (max-width: 991px) {
     .p-4 {padding: 1rem !important;}
+    .dv-w-1500 {width: 100% !important;}
     .dv-conclusion-card-pros > li:first-of-type:before , .dv-conclusion-card-cons > li:first-of-type:before{width: 20px !important;}
     .dv-conclusion-card-pros > li:last-of-type:before , .dv-conclusion-card-cons > li:last-of-type:before{width: 30px !important;}
     .dv-home-first-section-slider .swiper-slide {height: 350px !important;}
