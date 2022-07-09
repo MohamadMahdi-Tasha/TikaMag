@@ -1,5 +1,5 @@
 /*Importing Our Font*/
-@import "../fonts/yekan/css/Yekan.css";
+@import "../fonts/Fonts/fonts.css";
 
 /*Variables*/
 :root {
@@ -9,11 +9,11 @@
     --pink: #ffcddf;
     --hot-pink: #ff0067;
     --orange: #ffa20c;
-    --purple: #200E32;
+    --light: #FBFCFF;
 }
 
 /*Css Reset*/
-body {font-size: 12px;}
+body {font-size: 16px;}
 button {cursor: pointer;}
 a {text-decoration: none;}
 img {pointer-events: none;}
@@ -22,12 +22,15 @@ img {pointer-events: none;}
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Yekan', sans-serif !important;
+    font-family:
+    "YekanBachFaNum",-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif !important;
     outline: none !important;
 }
 
 /*Styles*/
 .dv-w-1500 {width: 1500px;}
+.dv-prl-1 {padding-right: 1rem;padding-left: 1rem;}
+.dv-ptb-dot-75 {padding-top: .75rem;padding-bottom: .75rem;}
 .dv-ml-1 {margin-left: 1rem;}
 .dv-ml-2 {margin-left: 2rem;}
 .dv-mr-5 {margin-right: 5rem;}
@@ -35,8 +38,9 @@ img {pointer-events: none;}
 .dv-aspect-ratio {aspect-ratio: 1/1;}
 .dv-bg-indigo {background-color: var(--indigo);}
 .dv-transition {transition: .3s;}
-.dv-pulsing-circle {width: 15px;animation: pulsing-circle 1s infinite;}
+.dv-pulsing-circle {width: 10px;animation: pulsing-circle 1s infinite;}
 .dv-text-darker-grey {color: var(--bs-gray-500) !important;}
+.dv-bg-light {background-color: var(--light) !important;}
 .dv-text-indigo {color: var(--indigo) !important;}
 .dv-bg-grey {background-color: var(--bs-gray-200);}
 .dv-border-transparent {border: 1px solid transparent;}
