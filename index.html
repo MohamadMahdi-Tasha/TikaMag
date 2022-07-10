@@ -79,7 +79,7 @@
             <ul class="w-50 dv-mq-991-w-auto d-inline-flex align-items-center list-unstyled mt-3">
                 <li class="dv-ml-1">
                     <div class="dropdown">
-                        <button id="dv-header-drop-down-btn" data-bs-toggle="dropdown" aria-expanded="false" class="dv-prl-1 dropdown-toggle dv-ptb-dot-75 text-nowrap dv-hover-text-indigo dv-header-links-holder-item dv-transition dv-hover-bg-darker-grey d-flex justify-content-center align-items-center fs-6 fw-normal border bg-white rounded-4">
+                        <button id="dv-header-drop-down-btn" data-bs-toggle="dropdown" aria-expanded="false" class="dv-prl-1 dv-ptb-dot-75 text-nowrap dv-hover-text-indigo dv-header-links-holder-item dv-transition dv-hover-bg-darker-grey d-flex justify-content-center align-items-center fs-6 fw-normal border bg-white rounded-4">
                             <svg class="dv-ml-1 dv-mq-991-m-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                                 <g transform="translate(2 2)">
                                     <path d="M13.986,20a2.989,2.989,0,0,1-2.975-3V13.941a2.989,2.989,0,0,1,2.975-3h3.039a2.988,2.988,0,0,1,2.975,3V17a2.988,2.988,0,0,1-2.975,3Zm-1.58-6.059V17a1.593,1.593,0,0,0,1.58,1.6h3.039A1.592,1.592,0,0,0,18.6,17V13.941a1.592,1.592,0,0,0-1.58-1.6H13.986A1.593,1.593,0,0,0,12.406,13.941ZM2.975,20A2.989,2.989,0,0,1,0,17V13.941a2.989,2.989,0,0,1,2.975-3H6.014a2.989,2.989,0,0,1,2.975,3V17a2.989,2.989,0,0,1-2.975,3ZM1.4,13.941V17a1.593,1.593,0,0,0,1.58,1.6H6.014A1.593,1.593,0,0,0,7.594,17V13.941a1.593,1.593,0,0,0-1.58-1.6H2.975A1.593,1.593,0,0,0,1.4,13.941ZM13.986,9.055a2.989,2.989,0,0,1-2.975-3V3a2.989,2.989,0,0,1,2.975-3h3.039A2.988,2.988,0,0,1,20,3V6.06a2.988,2.988,0,0,1-2.975,3ZM12.406,3V6.06a1.593,1.593,0,0,0,1.58,1.6h3.039a1.592,1.592,0,0,0,1.58-1.6V3a1.592,1.592,0,0,0-1.58-1.6H13.986A1.593,1.593,0,0,0,12.406,3Zm-9.43,6.06A2.989,2.989,0,0,1,0,6.06V3A2.989,2.989,0,0,1,2.975,0H6.014A2.989,2.989,0,0,1,8.989,3V6.06a2.989,2.989,0,0,1-2.975,3ZM1.4,3V6.06a1.593,1.593,0,0,0,1.58,1.6H6.014a1.593,1.593,0,0,0,1.58-1.6V3a1.593,1.593,0,0,0-1.58-1.6H2.975A1.593,1.593,0,0,0,1.4,3Z" fill="#435fcb" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1"/>
@@ -531,99 +531,155 @@
             </div>
             <!--Left Side-->
             <div class="w-25">
-                <h5 class="dv-text-indigo mb-4">پیشنهادات ویژه</h5>
+                <h5 class="dv-text-indigo mb-2">پیشنهادات ویژه</h5>
                 <!-- Slider main container -->
-                <div class="swiper dv-related-things-swiper w-100 border rounded-5 p-4 mb-4 dv-mq-991-border-0" dir="ltr">
+                <div class="swiper dv-related-things-swiper w-100 rounded-5 dv-mq-991-border-0 p-4" dir="ltr">
                     <!--Top Side Offer-->
-                    <div class="d-flex flex-wrap text-start w-100 align-items-center justify-content-between dv-text-hot-pink mb-3">
-                        <div class="d-inline-flex dv-mr-1">
-                            <svg id="Time_Square" data-name="Time Square" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" class="dv-mr-1">
-                                <path id="Fill_3" data-name="Fill 3" d="M14.34,0H5.67C2.28,0,0,2.38,0,5.92v8.17C0,17.62,2.28,20,5.67,20h8.67C17.73,20,20,17.62,20,14.09V5.92C20,2.38,17.73,0,14.34,0" fill="#ff4773" opacity="0.35"/>
-                                <path id="Fill_1" data-name="Fill 1" d="M4.675,8.889a.756.756,0,0,1-.384-.1L.365,6.442A.754.754,0,0,1,0,5.8V.75a.75.75,0,0,1,1.5,0V5.371L5.06,7.494a.75.75,0,0,1-.385,1.395" transform="translate(8.898 4.925)" fill="#ff4773"/>
-                            </svg>
-                            <h4 class="text-nowrap">
-                                <span class="dv-br-dashed dv-pr-1">14</span>
-                                <span class="dv-br-dashed dv-pl-1 dv-pr-1">57</span>
-                                <span class="dv-pl-1">22</span>
-                            </h4>
-                        </div>
-                        <h5 class="text-nowrap">تا پایان تخفیف</h5>
+                    <div class="swiper-wrapper w-100 mb-3">
+                        <a href="ساعت%20هوشمند%20اپل%20مدل%20واچ%20۶سایز%20۴۴%20اسپورت%20نقره%20ای.html" class="swiper-slide rounded-5 border p-4 d-flex align-items-center justify-content-center flex-column w-100">
+                            <div class="d-flex flex-wrap text-start w-100 align-items-center justify-content-between dv-text-hot-pink mb-3">
+                                <div class="d-inline-flex dv-mr-1">
+                                    <svg id="Time_Square" data-name="Time Square" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" class="dv-mr-1">
+                                        <path id="Fill_3" data-name="Fill 3" d="M14.34,0H5.67C2.28,0,0,2.38,0,5.92v8.17C0,17.62,2.28,20,5.67,20h8.67C17.73,20,20,17.62,20,14.09V5.92C20,2.38,17.73,0,14.34,0" fill="#ff4773" opacity="0.35"/>
+                                        <path id="Fill_1" data-name="Fill 1" d="M4.675,8.889a.756.756,0,0,1-.384-.1L.365,6.442A.754.754,0,0,1,0,5.8V.75a.75.75,0,0,1,1.5,0V5.371L5.06,7.494a.75.75,0,0,1-.385,1.395" transform="translate(8.898 4.925)" fill="#ff4773"/>
+                                    </svg>
+                                    <h4 class="text-nowrap">
+                                        <span class="dv-br-dashed dv-pr-1">14</span>
+                                        <span class="dv-br-dashed dv-pl-1 dv-pr-1">57</span>
+                                        <span class="dv-pl-1">22</span>
+                                    </h4>
+                                </div>
+                                <h5 class="text-nowrap">تا پایان تخفیف</h5>
+                            </div>
+                            <img src="assets/base/img/img-pc.png" alt="ساعت هوشمند اپل مدل واچ ۶ سایز ۴۴اسپورت نقره ای" class="w-75 mb-5">
+                            <h5 class="text-black mb-5 text-end">ساعت هوشمند اپل مدل واچ ۶ سایز ۴۴اسپورت نقره ای</h5>
+                            <!--Price-->
+                            <div class="text-start w-100">
+                                <h6 class="dv-text-darker-grey mb-3"><del>300,000 تومان</del></h6>
+                                <h4 class="dv-text-indigo">
+                                    تومان
+                                    <span class="fw-normaler">۵۶۶/۵۰۰/۰۰۰</span>
+                                </h4>
+                            </div>
+                        </a>
+                        <a href="ساعت%20هوشمند%20اپل%20مدل%20واچ%20۶سایز%20۴۴%20اسپورت%20نقره%20ای.html" class="swiper-slide rounded-5 border p-4 d-flex align-items-center justify-content-center flex-column w-100">
+                            <div class="d-flex flex-wrap text-start w-100 align-items-center justify-content-between dv-text-hot-pink mb-3">
+                                <div class="d-inline-flex dv-mr-1">
+                                    <svg id="Time_Square" data-name="Time Square" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" class="dv-mr-1">
+                                        <path id="Fill_3" data-name="Fill 3" d="M14.34,0H5.67C2.28,0,0,2.38,0,5.92v8.17C0,17.62,2.28,20,5.67,20h8.67C17.73,20,20,17.62,20,14.09V5.92C20,2.38,17.73,0,14.34,0" fill="#ff4773" opacity="0.35"/>
+                                        <path id="Fill_1" data-name="Fill 1" d="M4.675,8.889a.756.756,0,0,1-.384-.1L.365,6.442A.754.754,0,0,1,0,5.8V.75a.75.75,0,0,1,1.5,0V5.371L5.06,7.494a.75.75,0,0,1-.385,1.395" transform="translate(8.898 4.925)" fill="#ff4773"/>
+                                    </svg>
+                                    <h4 class="text-nowrap">
+                                        <span class="dv-br-dashed dv-pr-1">14</span>
+                                        <span class="dv-br-dashed dv-pl-1 dv-pr-1">57</span>
+                                        <span class="dv-pl-1">22</span>
+                                    </h4>
+                                </div>
+                                <h5 class="text-nowrap">تا پایان تخفیف</h5>
+                            </div>
+                            <img src="assets/base/img/img-pc.png" alt="ساعت هوشمند اپل مدل واچ ۶ سایز ۴۴اسپورت نقره ای" class="w-75 mb-5">
+                            <h5 class="text-black mb-5 text-end">ساعت هوشمند اپل مدل واچ ۶ سایز ۴۴اسپورت نقره ای</h5>
+                            <!--Price-->
+                            <div class="text-start w-100">
+                                <h6 class="dv-text-darker-grey mb-3"><del>300,000 تومان</del></h6>
+                                <h4 class="dv-text-indigo">
+                                    تومان
+                                    <span class="fw-normaler">۵۶۶/۵۰۰/۰۰۰</span>
+                                </h4>
+                            </div>
+                        </a>
+                        <a href="ساعت%20هوشمند%20اپل%20مدل%20واچ%20۶سایز%20۴۴%20اسپورت%20نقره%20ای.html" class="swiper-slide rounded-5 border p-4 d-flex align-items-center justify-content-center flex-column w-100">
+                            <div class="d-flex flex-wrap text-start w-100 align-items-center justify-content-between dv-text-hot-pink mb-3">
+                                <div class="d-inline-flex dv-mr-1">
+                                    <svg id="Time_Square" data-name="Time Square" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" class="dv-mr-1">
+                                        <path id="Fill_3" data-name="Fill 3" d="M14.34,0H5.67C2.28,0,0,2.38,0,5.92v8.17C0,17.62,2.28,20,5.67,20h8.67C17.73,20,20,17.62,20,14.09V5.92C20,2.38,17.73,0,14.34,0" fill="#ff4773" opacity="0.35"/>
+                                        <path id="Fill_1" data-name="Fill 1" d="M4.675,8.889a.756.756,0,0,1-.384-.1L.365,6.442A.754.754,0,0,1,0,5.8V.75a.75.75,0,0,1,1.5,0V5.371L5.06,7.494a.75.75,0,0,1-.385,1.395" transform="translate(8.898 4.925)" fill="#ff4773"/>
+                                    </svg>
+                                    <h4 class="text-nowrap">
+                                        <span class="dv-br-dashed dv-pr-1">14</span>
+                                        <span class="dv-br-dashed dv-pl-1 dv-pr-1">57</span>
+                                        <span class="dv-pl-1">22</span>
+                                    </h4>
+                                </div>
+                                <h5 class="text-nowrap">تا پایان تخفیف</h5>
+                            </div>
+                            <img src="assets/base/img/img-pc.png" alt="ساعت هوشمند اپل مدل واچ ۶ سایز ۴۴اسپورت نقره ای" class="w-75 mb-5">
+                            <h5 class="text-black mb-5 text-end">ساعت هوشمند اپل مدل واچ ۶ سایز ۴۴اسپورت نقره ای</h5>
+                            <!--Price-->
+                            <div class="text-start w-100">
+                                <h6 class="dv-text-darker-grey mb-3"><del>300,000 تومان</del></h6>
+                                <h4 class="dv-text-indigo">
+                                    تومان
+                                    <span class="fw-normaler">۵۶۶/۵۰۰/۰۰۰</span>
+                                </h4>
+                            </div>
+                        </a>
+                        <a href="ساعت%20هوشمند%20اپل%20مدل%20واچ%20۶سایز%20۴۴%20اسپورت%20نقره%20ای.html" class="swiper-slide rounded-5 border p-4 d-flex align-items-center justify-content-center flex-column w-100">
+                            <div class="d-flex flex-wrap text-start w-100 align-items-center justify-content-between dv-text-hot-pink mb-3">
+                                <div class="d-inline-flex dv-mr-1">
+                                    <svg id="Time_Square" data-name="Time Square" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" class="dv-mr-1">
+                                        <path id="Fill_3" data-name="Fill 3" d="M14.34,0H5.67C2.28,0,0,2.38,0,5.92v8.17C0,17.62,2.28,20,5.67,20h8.67C17.73,20,20,17.62,20,14.09V5.92C20,2.38,17.73,0,14.34,0" fill="#ff4773" opacity="0.35"/>
+                                        <path id="Fill_1" data-name="Fill 1" d="M4.675,8.889a.756.756,0,0,1-.384-.1L.365,6.442A.754.754,0,0,1,0,5.8V.75a.75.75,0,0,1,1.5,0V5.371L5.06,7.494a.75.75,0,0,1-.385,1.395" transform="translate(8.898 4.925)" fill="#ff4773"/>
+                                    </svg>
+                                    <h4 class="text-nowrap">
+                                        <span class="dv-br-dashed dv-pr-1">14</span>
+                                        <span class="dv-br-dashed dv-pl-1 dv-pr-1">57</span>
+                                        <span class="dv-pl-1">22</span>
+                                    </h4>
+                                </div>
+                                <h5 class="text-nowrap">تا پایان تخفیف</h5>
+                            </div>
+                            <img src="assets/base/img/img-pc.png" alt="ساعت هوشمند اپل مدل واچ ۶ سایز ۴۴اسپورت نقره ای" class="w-75 mb-5">
+                            <h5 class="text-black mb-5 text-end">ساعت هوشمند اپل مدل واچ ۶ سایز ۴۴اسپورت نقره ای</h5>
+                            <!--Price-->
+                            <div class="text-start w-100">
+                                <h6 class="dv-text-darker-grey mb-3"><del>300,000 تومان</del></h6>
+                                <h4 class="dv-text-indigo">
+                                    تومان
+                                    <span class="fw-normaler">۵۶۶/۵۰۰/۰۰۰</span>
+                                </h4>
+                            </div>
+                        </a>
+                        <a href="ساعت%20هوشمند%20اپل%20مدل%20واچ%20۶سایز%20۴۴%20اسپورت%20نقره%20ای.html" class="swiper-slide rounded-5 border p-4 d-flex align-items-center justify-content-center flex-column w-100">
+                            <div class="d-flex flex-wrap text-start w-100 align-items-center justify-content-between dv-text-hot-pink mb-3">
+                                <div class="d-inline-flex dv-mr-1">
+                                    <svg id="Time_Square" data-name="Time Square" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" class="dv-mr-1">
+                                        <path id="Fill_3" data-name="Fill 3" d="M14.34,0H5.67C2.28,0,0,2.38,0,5.92v8.17C0,17.62,2.28,20,5.67,20h8.67C17.73,20,20,17.62,20,14.09V5.92C20,2.38,17.73,0,14.34,0" fill="#ff4773" opacity="0.35"/>
+                                        <path id="Fill_1" data-name="Fill 1" d="M4.675,8.889a.756.756,0,0,1-.384-.1L.365,6.442A.754.754,0,0,1,0,5.8V.75a.75.75,0,0,1,1.5,0V5.371L5.06,7.494a.75.75,0,0,1-.385,1.395" transform="translate(8.898 4.925)" fill="#ff4773"/>
+                                    </svg>
+                                    <h4 class="text-nowrap">
+                                        <span class="dv-br-dashed dv-pr-1">14</span>
+                                        <span class="dv-br-dashed dv-pl-1 dv-pr-1">57</span>
+                                        <span class="dv-pl-1">22</span>
+                                    </h4>
+                                </div>
+                                <h5 class="text-nowrap">تا پایان تخفیف</h5>
+                            </div>
+                            <img src="assets/base/img/img-pc.png" alt="ساعت هوشمند اپل مدل واچ ۶ سایز ۴۴اسپورت نقره ای" class="w-75 mb-5">
+                            <h5 class="text-black mb-5 text-end">ساعت هوشمند اپل مدل واچ ۶ سایز ۴۴اسپورت نقره ای</h5>
+                            <!--Price-->
+                            <div class="text-start w-100">
+                                <h6 class="dv-text-darker-grey mb-3"><del>300,000 تومان</del></h6>
+                                <h4 class="dv-text-indigo">
+                                    تومان
+                                    <span class="fw-normaler">۵۶۶/۵۰۰/۰۰۰</span>
+                                </h4>
+                            </div>
+                        </a>
                     </div>
-                    <div class="swiper-wrapper w-100">
-                        <a href="ساعت%20هوشمند%20اپل%20مدل%20واچ%20۶سایز%20۴۴%20اسپورت%20نقره%20ای.html" class="swiper-slide d-flex align-items-center justify-content-center flex-column w-100">
-                            <img src="assets/base/img/img-pc.png" alt="ساعت هوشمند اپل مدل واچ ۶ سایز ۴۴اسپورت نقره ای" class="w-75 mb-5">
-                            <h5 class="text-black mb-5 text-end">ساعت هوشمند اپل مدل واچ ۶ سایز ۴۴اسپورت نقره ای</h5>
-                            <!--Price-->
-                            <div class="text-start w-100">
-                                <h6 class="dv-text-darker-grey mb-3"><del>300,000 تومان</del></h6>
-                                <h4 class="dv-text-indigo">
-                                    تومان
-                                    <span class="fw-normaler">۵۶۶/۵۰۰/۰۰۰</span>
-                                </h4>
+                    <div class="d-inline-flex align-items-center justify-content-between w-100" dir="ltr">
+                        <div class="swiper-pagination w-auto position-static"></div>
+                        <div class="d-inline-flex align-items-center">
+                            <div class="swiper-button-prev dv-transition dv-bg-light-blue position-static mt-0 dv-text-indigo dv-hover-bg-indigo dv-hover-text-light-blue rounded-3 dv-mr-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5z"/>
+                                </svg>
                             </div>
-                        </a>
-                        <a href="ساعت%20هوشمند%20اپل%20مدل%20واچ%20۶سایز%20۴۴%20اسپورت%20نقره%20ای.html" class="swiper-slide d-flex align-items-center justify-content-center flex-column w-100">
-                            <img src="assets/base/img/img-pc.png" alt="ساعت هوشمند اپل مدل واچ ۶ سایز ۴۴اسپورت نقره ای" class="w-75 mb-5">
-                            <h5 class="text-black mb-5 text-end">ساعت هوشمند اپل مدل واچ ۶ سایز ۴۴اسپورت نقره ای</h5>
-                            <!--Price-->
-                            <div class="text-start w-100">
-                                <h6 class="dv-text-darker-grey mb-3"><del>300,000 تومان</del></h6>
-                                <h4 class="dv-text-indigo">
-                                    تومان
-                                    <span class="fw-normaler">۵۶۶/۵۰۰/۰۰۰</span>
-                                </h4>
+                            <div class="swiper-button-next dv-transition dv-bg-light-blue position-static mt-0 dv-text-indigo dv-hover-bg-indigo dv-hover-text-light-blue rounded-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                                </svg>
                             </div>
-                        </a>
-                        <a href="ساعت%20هوشمند%20اپل%20مدل%20واچ%20۶سایز%20۴۴%20اسپورت%20نقره%20ای.html" class="swiper-slide d-flex align-items-center justify-content-center flex-column w-100">
-                            <img src="assets/base/img/img-pc.png" alt="ساعت هوشمند اپل مدل واچ ۶ سایز ۴۴اسپورت نقره ای" class="w-75 mb-5">
-                            <h5 class="text-black mb-5 text-end">ساعت هوشمند اپل مدل واچ ۶ سایز ۴۴اسپورت نقره ای</h5>
-                            <!--Price-->
-                            <div class="text-start w-100">
-                                <h6 class="dv-text-darker-grey mb-3"><del>300,000 تومان</del></h6>
-                                <h4 class="dv-text-indigo">
-                                    تومان
-                                    <span class="fw-normaler">۵۶۶/۵۰۰/۰۰۰</span>
-                                </h4>
-                            </div>
-                        </a>
-                        <a href="ساعت%20هوشمند%20اپل%20مدل%20واچ%20۶سایز%20۴۴%20اسپورت%20نقره%20ای.html" class="swiper-slide d-flex align-items-center justify-content-center flex-column w-100">
-                            <img src="assets/base/img/img-pc.png" alt="ساعت هوشمند اپل مدل واچ ۶ سایز ۴۴اسپورت نقره ای" class="w-75 mb-5">
-                            <h5 class="text-black mb-5 text-end">ساعت هوشمند اپل مدل واچ ۶ سایز ۴۴اسپورت نقره ای</h5>
-                            <!--Price-->
-                            <div class="text-start w-100">
-                                <h6 class="dv-text-darker-grey mb-3"><del>300,000 تومان</del></h6>
-                                <h4 class="dv-text-indigo">
-                                    تومان
-                                    <span class="fw-normaler">۵۶۶/۵۰۰/۰۰۰</span>
-                                </h4>
-                            </div>
-                        </a>
-                        <a href="ساعت%20هوشمند%20اپل%20مدل%20واچ%20۶سایز%20۴۴%20اسپورت%20نقره%20ای.html" class="swiper-slide d-flex align-items-center justify-content-center flex-column w-100">
-                            <img src="assets/base/img/img-pc.png" alt="ساعت هوشمند اپل مدل واچ ۶ سایز ۴۴اسپورت نقره ای" class="w-75 mb-5">
-                            <h5 class="text-black mb-5 text-end">ساعت هوشمند اپل مدل واچ ۶ سایز ۴۴اسپورت نقره ای</h5>
-                            <!--Price-->
-                            <div class="text-start w-100">
-                                <h6 class="dv-text-darker-grey mb-3"><del>300,000 تومان</del></h6>
-                                <h4 class="dv-text-indigo">
-                                    تومان
-                                    <span class="fw-normaler">۵۶۶/۵۰۰/۰۰۰</span>
-                                </h4>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="d-inline-flex align-items-center justify-content-between w-100" dir="ltr">
-                    <div class="swiper-pagination w-auto position-static"></div>
-                    <div class="d-inline-flex align-items-center">
-                        <div class="swiper-button-prev dv-transition dv-bg-light-blue position-static mt-0 dv-text-indigo dv-hover-bg-indigo dv-hover-text-light-blue rounded-3 dv-mr-1">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5z"/>
-                            </svg>
-                        </div>
-                        <div class="swiper-button-next dv-transition dv-bg-light-blue position-static mt-0 dv-text-indigo dv-hover-bg-indigo dv-hover-text-light-blue rounded-3">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
-                            </svg>
                         </div>
                     </div>
                 </div>

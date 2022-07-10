@@ -60,8 +60,8 @@ img {pointer-events: none;}
 .dv-conclusion-card-pros > li:before {background-image: url("../img/icons/img-check.svg");}
 .dv-conclusion-card-cons > li:before {background-image: url("../img/icons/img-X.svg");}
 .dv-text-grey {color: var(--bs-gray-600);}
-.swiper-pagination:not(.dv-rtl) .swiper-pagination-bulle:not(:last-of-type) {margin-right: 5px;}
-.swiper-pagination.dv-rtl .swiper-pagination-bullet:not(:last-of-type) {margin-left: 5px;}
+.swiper-pagination:not(.dv-rtl) .swiper-pagination-bullet:not(:last-of-type) {margin-right: 5px !important;}
+.swiper-pagination.dv-rtl .swiper-pagination-bullet:not(:last-of-type) {margin-left: 5px !important;}
 .swiper-pagination-bullet{width: 10px !important;height: 10px !important;transition: .3s}
 .swiper-button-prev, .swiper-button-next {width: 25px !important;height: 25px !important;}
 .swiper-button-prev:after,
