@@ -163,7 +163,13 @@ img {pointer-events: none;}
 /*Media Querys*/
 @media (max-width: 1576px) {  .dv-w-1500 {width: 1150px !important;}  }
 @media (max-width: 1199px) {  .dv-w-1500 {width: 1000px !important;}  }
-@media (max-width: 1027px) {  .dv-w-1500 {width: 100% !important;}  header {padding: 1rem !important;}  }
+@media (max-width: 1027px) {
+    .dv-w-1500 {width: 100% !important;}
+    header > main{padding: 1rem !important;}
+    header > main.pb-4{padding-bottom: 1rem !important;}
+    header > main.pt-4{padding-top: 1rem !important;}
+}
+
 @media (max-width: 1461px) {
     .dv-mq-1461-d-flex {display: flex !important;}
     .dv-mq-1461-flex-d-c {flex-direction: column;}
