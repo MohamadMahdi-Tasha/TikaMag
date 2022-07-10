@@ -21,6 +21,7 @@ body {
 button {cursor: pointer;}
 a {text-decoration: none;}
 img {pointer-events: none;}
+ul, li, ol {margin-bottom: 0 !important;}
 
 * {
     padding: 0;
@@ -204,7 +205,7 @@ img {pointer-events: none;}
     .dv-mq-991-p-1 {padding: 1rem !important;}
     .dv-mq-991-border-0 {border: none !important;}
     .dv-mq-991-flex-d-r {flex-direction: row !important;}
-    .dv-mq-991-ml-2 {/* margin-left: 2rem; */}
+    .dv-mq-991-ml-2 {margin-left: 2rem;}
     .dv-mq-991-ai-center {align-items: center !important;}
     .dv-mq-991-jc-start {justify-content: start !important;}
     .dv-mq-991-grid-tc-2 {grid-template-columns: repeat(2,1fr);}
