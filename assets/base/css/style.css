@@ -163,12 +163,6 @@ img {pointer-events: none;}
 /*Media Querys*/
 @media (max-width: 1576px) {  .dv-w-1500 {width: 1150px !important;}  }
 @media (max-width: 1199px) {  .dv-w-1500 {width: 1000px !important;}  }
-@media (max-width: 1027px) {
-    .dv-w-1500 {width: 100% !important;}
-    header > main{padding: 1rem !important;}
-    header > main.pb-4{padding-bottom: 1rem !important;}
-    header > main.pt-4{padding-top: 1rem !important;}
-}
 
 @media (max-width: 1461px) {
     .dv-mq-1461-d-flex {display: flex !important;}
@@ -179,6 +173,10 @@ img {pointer-events: none;}
 
 @media (max-width: 991px) {
     .p-4 {padding: 1rem !important;}
+    .dv-w-1500 {width: 100% !important;}
+    header > main{padding: 1rem !important;}
+    header > main.pb-4{padding-bottom: 1rem !important;}
+    header > main.pt-4{padding-top: 1rem !important;}
     .dv-conclusion-card-pros > li:first-of-type:before , .dv-conclusion-card-cons > li:first-of-type:before{width: 20px !important;}
     .dv-conclusion-card-pros > li:last-of-type:before , .dv-conclusion-card-cons > li:last-of-type:before{width: 30px !important;}
     .dv-conclusion-card-details > div:nth-of-type(2)::-webkit-scrollbar {display: none !important;}
