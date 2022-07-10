@@ -80,8 +80,8 @@ img {pointer-events: none;}
 .dv-pl-1 {padding-left: 1rem;}
 .dv-ml-5 {margin-left: 5rem;}
 .dv-comment-textarea {height: 200px;}
-.dv-pagination-item {width: 30px;}
-.dv-pagination-item.active {background-color: var(--indigo);color: white;}
+.dv-pagination-item {width: 25px;}
+.dv-pagination-item.active {background-color: var(--indigo) !important;color: white !important;}
 .dv-reply-textarea {height: 400px;}
 .dv-reply-sect[data-opened='true'] {display: block;}
 .dv-reply-sect[data-opened='false'] {display: none;}
