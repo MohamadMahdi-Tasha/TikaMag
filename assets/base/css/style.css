@@ -142,10 +142,6 @@ img {pointer-events: none;}
 .dv-hover-text-darkest-grey:hover {color: var(--bs-gray-700) !important;}
 .dv-hover-text-darker-indigo:hover {color: #2e4189 !important;}
 .dv-hover-text-indigo:hover {color: var(--indigo) !important;}
-.dv-header-links-holder-item:hover ~ .dv-header-links-holder-items-list,
-.dv-header-links-holder-items-list:hover,
-.dv-toggle-of-inner-lists:hover + .dv-inner-list,
-.dv-inner-list:hover {opacity: 1 !important;pointer-events: visible !important;}
 .dv-hover-path-fill-indigo:hover path {fill: var(--indigo) !important;}
 .dv-hover-bg-blue:hover {background-color: #93b6ff;}
 .dv-hover-bg-indigo:hover {background-color: var(--indigo);}

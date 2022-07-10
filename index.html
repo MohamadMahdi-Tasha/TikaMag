@@ -78,61 +78,28 @@
             <!--Right Side-->
             <ul class="w-50 dv-mq-991-w-auto d-inline-flex align-items-center list-unstyled mt-3">
                 <li class="dv-ml-1">
-                    <button class="dv-prl-1 dv-ptb-dot-75 text-nowrap dv-hover-text-indigo dv-header-links-holder-item dv-transition dv-hover-bg-darker-grey d-flex justify-content-center align-items-center fs-6 fw-normal border bg-white rounded-4">
-                        <svg class="dv-ml-1 dv-mq-991-m-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                            <g transform="translate(2 2)">
-                                <path d="M13.986,20a2.989,2.989,0,0,1-2.975-3V13.941a2.989,2.989,0,0,1,2.975-3h3.039a2.988,2.988,0,0,1,2.975,3V17a2.988,2.988,0,0,1-2.975,3Zm-1.58-6.059V17a1.593,1.593,0,0,0,1.58,1.6h3.039A1.592,1.592,0,0,0,18.6,17V13.941a1.592,1.592,0,0,0-1.58-1.6H13.986A1.593,1.593,0,0,0,12.406,13.941ZM2.975,20A2.989,2.989,0,0,1,0,17V13.941a2.989,2.989,0,0,1,2.975-3H6.014a2.989,2.989,0,0,1,2.975,3V17a2.989,2.989,0,0,1-2.975,3ZM1.4,13.941V17a1.593,1.593,0,0,0,1.58,1.6H6.014A1.593,1.593,0,0,0,7.594,17V13.941a1.593,1.593,0,0,0-1.58-1.6H2.975A1.593,1.593,0,0,0,1.4,13.941ZM13.986,9.055a2.989,2.989,0,0,1-2.975-3V3a2.989,2.989,0,0,1,2.975-3h3.039A2.988,2.988,0,0,1,20,3V6.06a2.988,2.988,0,0,1-2.975,3ZM12.406,3V6.06a1.593,1.593,0,0,0,1.58,1.6h3.039a1.592,1.592,0,0,0,1.58-1.6V3a1.592,1.592,0,0,0-1.58-1.6H13.986A1.593,1.593,0,0,0,12.406,3Zm-9.43,6.06A2.989,2.989,0,0,1,0,6.06V3A2.989,2.989,0,0,1,2.975,0H6.014A2.989,2.989,0,0,1,8.989,3V6.06a2.989,2.989,0,0,1-2.975,3ZM1.4,3V6.06a1.593,1.593,0,0,0,1.58,1.6H6.014a1.593,1.593,0,0,0,1.58-1.6V3a1.593,1.593,0,0,0-1.58-1.6H2.975A1.593,1.593,0,0,0,1.4,3Z" fill="#435fcb" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1"/>
-                            </g>
-                        </svg>
-                        <span class="dv-ml-1 dv-mq-991-d-none">دسته بندی کالاها</span>
-                        <svg class="dv-mq-991-d-none" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
-                        </svg>
-                    </button>
-                    <ul class="dv-header-links-holder-items-list list-unstyled position-absolute opacity-0 dv-pointer-event-none dv-transition w-25 shadow rounded-4 dv-mq-991-w-75">
-                        <li><a class="w-100" href="#"><button class="w-100 p-3 bg-white border-0 dv-transition dv-hover-bg-darker-grey text-end">ایتم</button></a></li>
-                        <li><a class="w-100" href="#"><button class="w-100 p-3 bg-white border-0 dv-transition dv-hover-bg-darker-grey text-end">ایتم</button></a></li>
-                        <li><a class="w-100" href="#"><button class="w-100 p-3 bg-white border-0 dv-transition dv-hover-bg-darker-grey text-end">ایتم</button></a></li>
-                        <li class="dv-toggle-of-inner-lists"><button class="w-100 p-3 bg-white border-0 dv-transition dv-hover-bg-darker-grey d-inline-flex justify-content-between align-items-center">
-                            <span>ایتم</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+                    <div class="dropdown">
+                        <button id="dv-header-drop-down-btn" data-bs-toggle="dropdown" aria-expanded="false" class="dv-prl-1 dropdown-toggle dv-ptb-dot-75 text-nowrap dv-hover-text-indigo dv-header-links-holder-item dv-transition dv-hover-bg-darker-grey d-flex justify-content-center align-items-center fs-6 fw-normal border bg-white rounded-4">
+                            <svg class="dv-ml-1 dv-mq-991-m-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <g transform="translate(2 2)">
+                                    <path d="M13.986,20a2.989,2.989,0,0,1-2.975-3V13.941a2.989,2.989,0,0,1,2.975-3h3.039a2.988,2.988,0,0,1,2.975,3V17a2.988,2.988,0,0,1-2.975,3Zm-1.58-6.059V17a1.593,1.593,0,0,0,1.58,1.6h3.039A1.592,1.592,0,0,0,18.6,17V13.941a1.592,1.592,0,0,0-1.58-1.6H13.986A1.593,1.593,0,0,0,12.406,13.941ZM2.975,20A2.989,2.989,0,0,1,0,17V13.941a2.989,2.989,0,0,1,2.975-3H6.014a2.989,2.989,0,0,1,2.975,3V17a2.989,2.989,0,0,1-2.975,3ZM1.4,13.941V17a1.593,1.593,0,0,0,1.58,1.6H6.014A1.593,1.593,0,0,0,7.594,17V13.941a1.593,1.593,0,0,0-1.58-1.6H2.975A1.593,1.593,0,0,0,1.4,13.941ZM13.986,9.055a2.989,2.989,0,0,1-2.975-3V3a2.989,2.989,0,0,1,2.975-3h3.039A2.988,2.988,0,0,1,20,3V6.06a2.988,2.988,0,0,1-2.975,3ZM12.406,3V6.06a1.593,1.593,0,0,0,1.58,1.6h3.039a1.592,1.592,0,0,0,1.58-1.6V3a1.592,1.592,0,0,0-1.58-1.6H13.986A1.593,1.593,0,0,0,12.406,3Zm-9.43,6.06A2.989,2.989,0,0,1,0,6.06V3A2.989,2.989,0,0,1,2.975,0H6.014A2.989,2.989,0,0,1,8.989,3V6.06a2.989,2.989,0,0,1-2.975,3ZM1.4,3V6.06a1.593,1.593,0,0,0,1.58,1.6H6.014a1.593,1.593,0,0,0,1.58-1.6V3a1.593,1.593,0,0,0-1.58-1.6H2.975A1.593,1.593,0,0,0,1.4,3Z" fill="#435fcb" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1"/>
+                                </g>
                             </svg>
-                        </button></li>
-                        <li class="bg-white shadow w-100 dv-mr-5 dv-inner-list position-absolute opacity-0 dv-pointer-event-none dv-transition">
-                            <ul class="m-0 list-unstyled">
-                                <li class="m-0"><a class="w-100" href="#"><button class="w-100 p-3 bg-white border-0 dv-transition dv-hover-bg-darker-grey text-end">ایتم</button></a></li>
-                                <li class="m-0"><a class="w-100" href="#"><button class="w-100 p-3 bg-white border-0 dv-transition dv-hover-bg-darker-grey text-end">ایتم</button></a></li>
-                                <li class="m-0"><a class="w-100" href="#"><button class="w-100 p-3 bg-white border-0 dv-transition dv-hover-bg-darker-grey text-end">ایتم</button></a></li>
-                            </ul>
-                        </li>
-                        <li class="dv-toggle-of-inner-lists"><button class="w-100 p-3 bg-white border-0 dv-transition dv-hover-bg-darker-grey d-inline-flex justify-content-between align-items-center">
-                            <span>ایتم</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+                            <span class="dv-ml-1 dv-mq-991-d-none">دسته بندی کالاها</span>
+                            <svg class="dv-mq-991-d-none" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
                             </svg>
-                        </button></li>
-                        <li class="bg-white shadow w-100 dv-mr-5 dv-inner-list position-absolute opacity-0 dv-pointer-event-none dv-transition">
-                            <ul class="m-0 list-unstyled">
-                                <li class="m-0"><a class="w-100" href="#"><button class="w-100 p-3 bg-white border-0 dv-transition dv-hover-bg-darker-grey text-end">ایتم</button></a></li>
-                                <li class="m-0"><a class="w-100" href="#"><button class="w-100 p-3 bg-white border-0 dv-transition dv-hover-bg-darker-grey text-end">ایتم</button></a></li>
-                                <li class="m-0"><a class="w-100" href="#"><button class="w-100 p-3 bg-white border-0 dv-transition dv-hover-bg-darker-grey text-end">ایتم</button></a></li>
-                            </ul>
-                        </li>
-                        <li class="dv-toggle-of-inner-lists"><button class="w-100 p-3 bg-white border-0 dv-transition dv-hover-bg-darker-grey d-inline-flex justify-content-between align-items-center">
-                            <span>ایتم</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
-                            </svg>
-                        </button></li>
-                        <li class="bg-white shadow w-100 dv-mr-5 dv-inner-list position-absolute opacity-0 dv-pointer-event-none dv-transition">
-                            <ul class="m-0 list-unstyled">
-                                <li class="m-0"><a class="w-100" href="#"><button class="w-100 p-3 bg-white border-0 dv-transition dv-hover-bg-darker-grey text-end">ایتم</button></a></li>
-                                <li class="m-0"><a class="w-100" href="#"><button class="w-100 p-3 bg-white border-0 dv-transition dv-hover-bg-darker-grey text-end">ایتم</button></a></li>
-                                <li class="m-0"><a class="w-100" href="#"><button class="w-100 p-3 bg-white border-0 dv-transition dv-hover-bg-darker-grey text-end">ایتم</button></a></li>
-                            </ul>
-                        </li>
-                    </ul>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end w-100 border" aria-labelledby="dv-header-drop-down-btn">
+                            <li><a class="dropdown-item text-end" href="#">ایتم</a></li>
+                            <li><a class="dropdown-item text-end" href="#">ایتم</a></li>
+                            <li><a class="dropdown-item text-end" href="#">ایتم</a></li>
+                            <li><a class="dropdown-item text-end" href="#">ایتم</a></li>
+                            <li><a class="dropdown-item text-end" href="#">ایتم</a></li>
+                            <li><a class="dropdown-item text-end" href="#">ایتم</a></li>
+                            <li><a class="dropdown-item text-end" href="#">ایتم</a></li>
+                        </ul>
+                    </div>
                 </li>
                 <li class="dv-ml-1 dv-mq-991-d-none"><a href="#"><button class="dv-prl-1 dv-ptb-dot-75 text-nowrap dv-transition dv-hover-text-indigo dv-hover-bg-darker-grey d-flex justify-content-center align-items-center fw-normal fs-6 border bg-white rounded-4">بازی و سرگرمی</button></a></li>
                 <li class="dv-ml-1 dv-mq-991-d-none"><a href="#"><button class="dv-prl-1 dv-ptb-dot-75 text-nowrap dv-transition dv-hover-text-indigo dv-hover-bg-darker-grey d-flex justify-content-center align-items-center fw-normal fs-6 border bg-white rounded-4">موبایلو فناوری</button></a></li>
