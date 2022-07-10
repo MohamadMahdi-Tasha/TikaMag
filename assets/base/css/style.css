@@ -215,6 +215,7 @@ img {pointer-events: none;}
     .dv-mq-991-grid-tc-1 {grid-template-columns: repeat(1, 1fr);}
     .dv-mq-991-flex-wrap {flex-wrap: wrap !important;}
     .dv-mq-991-p-0 {padding: 0 !important;}
+    .dv-mq-991-rounded-0 {border-radius: 0 !important;}
 }
 
 @media (max-width: 575px) {
