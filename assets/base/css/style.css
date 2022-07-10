@@ -49,7 +49,7 @@ ul, li, ol {margin-bottom: 0 !important;}
 .dv-border-transparent {border: 1px solid transparent;}
 .dv-focused {border-color: var(--indigo);}
 .dv-pointer-event-none {pointer-events: none;}
-.dv-placeholder-color-gray-500::placeholder {color: var(--bs-gray-500);font-size: 10px !important;}
+.dv-placeholder-color-gray-500::placeholder {color: var(--bs-gray-500);}
 .dv-section {background-color: #fbfcff;}
 .dv-lh-40 {line-height: 40px;}
 .dv-text-darkest-grey {color: var(--bs-gray-700);}
