@@ -187,6 +187,8 @@ input::placeholder, textarea {font-size: 1rem !important;}
     .dv-home-first-section-slider .swiper-slide {height: 250px !important;}
     body {background-color: white !important;}
     .dv-number-conclusion {transform: translateY(-10px)}
+    .dv-conclusion-card-pros > li,
+    .dv-conclusion-card-cons > li {font-size: 1rem !important;}
 
     .dv-mq-991-d-none {display: none !important;}
     .dv-mq-991-d-block {display: block !important;}
