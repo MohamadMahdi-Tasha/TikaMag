@@ -112,6 +112,7 @@ ul, li, ol {margin-bottom: 0 !important;}
 .dv-header-mobile-view-btns {width: 50px;border-radius: 20px;}
 .dv-w-50px {width: 40px !important;}
 input::placeholder, textarea {font-size: 1rem !important;}
+p {margin-bottom: 0 !important;}
 
 .swiper-pagination-bullet.swiper-pagination-bullet-active {
     width: 30px !important;
