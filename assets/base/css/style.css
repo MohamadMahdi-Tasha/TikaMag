@@ -174,6 +174,8 @@ input::placeholder, textarea {font-size: 1rem !important;}
 @media (max-width: 991px) {
     .p-4 {padding: 1rem !important;}
     .dv-w-1500 {width: 100% !important;}
+    p.dv-lh-30,p.dv-lh-40 {line-height: 20px !important;}
+    p.fs-5 {font-size: 1rem !important}
     header > main{padding: 1rem !important;}
     header > main.pb-4{padding-bottom: 1rem !important;}
     header > main.pt-4{padding-top: 1rem !important;}
@@ -201,6 +203,8 @@ input::placeholder, textarea {font-size: 1rem !important;}
     .dv-mq-991-d-inline-flex {display: inline-flex !important;}
     .dv-mq-991-mb-3 {margin-bottom: 1.5rem !important;}
     .dv-mq-991-mb-1 {margin-bottom: .5rem !important;}
+    .dv-mq-991-mt-0 {margin-top: 0rem !important;}
+    .dv-mq-991-mb-0 {margin-bottom: 0rem !important;}
     .dv-mq-991-mb-3rem {margin-bottom: 3rem !important;}
     .dv-mq-991-p-1 {padding: 1rem !important;}
     .dv-mq-991-border-0 {border: none !important;}
