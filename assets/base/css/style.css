@@ -174,7 +174,7 @@ input::placeholder, textarea {font-size: 1rem !important;}
 @media (max-width: 991px) {
     .p-4 {padding: 1rem !important;}
     .dv-w-1500 {width: 100% !important;}
-    p.dv-lh-30,p.dv-lh-40 {line-height: 20px !important;}
+    p.dv-lh-30,p.dv-lh-40 {line-height: 25px !important;}
     p.fs-5 {font-size: 1rem !important}
     header > main{padding: 1rem !important;}
     header > main.pb-4{padding-bottom: 1rem !important;}
