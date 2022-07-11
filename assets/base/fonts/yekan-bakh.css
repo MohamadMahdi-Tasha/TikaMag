@@ -1,0 +1,20 @@
+@font-face {
+    font-family: yekan-bakh;
+    font-style: normal;
+    font-weight: normal;
+    src: url("font/Yekan-05.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: yekan-bakh;
+    font-style: normal;
+    font-weight: 800;
+    src: url("font/Yekan-07.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: yekan-bakh;
+    font-style: normal;
+    font-weight: 900;
+    src: url("font/Yekan-08.ttf") format("truetype");
+}

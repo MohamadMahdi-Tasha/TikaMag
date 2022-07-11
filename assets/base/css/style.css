@@ -1,5 +1,5 @@
 /*Importing Our Font*/
-@import "../fonts/Fonts/fonts.css";
+@import "../fonts/yekan-bakh.css";
 
 /*Variables*/
 :root {
@@ -13,11 +13,7 @@
 }
 
 /*Css Reset*/
-body {
-    font-size: 16px;
-    font-family: "YekanBachFaNum",-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif !important;
-}
-
+body {font-size: 16px;}
 button {cursor: pointer;}
 a {text-decoration: none;}
 img {pointer-events: none;}
@@ -28,6 +24,7 @@ ul, li, ol {margin-bottom: 0 !important;}
     margin: 0;
     box-sizing: border-box;
     outline: none !important;
+    font-family: "yekan-bakh",-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif !important;
 }
 
 /*Styles*/
