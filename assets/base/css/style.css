@@ -28,7 +28,7 @@ ul, li, ol {margin-bottom: 0 !important;}
 }
 
 /*Styles*/
-.dv-w-1500 {width: 1500px;}
+.dv-w-1320 {width: 1320px;}
 .dv-prl-1 {padding-right: 1rem !important;padding-left: 1rem !important;}
 .dv-ptb-dot-75 {padding-top: .75rem !important;padding-bottom: .75rem !important;}
 .dv-ml-1 {margin-left: 1rem;}
@@ -161,8 +161,8 @@ input::placeholder, textarea {font-size: 1rem !important;}
 }
 
 /*Media Querys*/
-@media (max-width: 1576px) {  .dv-w-1500 {width: 1150px !important;}  }
-@media (max-width: 1199px) {  .dv-w-1500 {width: 1000px !important;}  }
+@media (max-width: 1576px) {  .dv-w-1320 {width: 1150px !important;}  }
+@media (max-width: 1199px) {  .dv-w-1320 {width: 1000px !important;}  }
 
 @media (max-width: 1461px) {
     .dv-mq-1461-d-flex {display: flex !important;}
